@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comms", "Comms\Comms.csproj", "{F7E5E291-1D20-4089-966C-DA44C593610F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientComms", "ClientComms\ClientComms.csproj", "{61A8EC03-4570-4BFF-893A-C2E30F52B867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerComms", "ServerComms\ServerComms.csproj", "{4E05FDC8-423E-469E-90F7-666999FE55D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleComms", "ConsoleComms\ConsoleComms.csproj", "{9D7BBE07-CB00-4CAA-A164-9993174ABAAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89F46E9E-0681-4A1B-A539-535FC9DC6D38}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7E5E291-1D20-4089-966C-DA44C593610F}.Debug|x86.ActiveCfg = Debug|x86
+		{F7E5E291-1D20-4089-966C-DA44C593610F}.Debug|x86.Build.0 = Debug|x86
+		{F7E5E291-1D20-4089-966C-DA44C593610F}.Release|x86.ActiveCfg = Release|x86
+		{F7E5E291-1D20-4089-966C-DA44C593610F}.Release|x86.Build.0 = Release|x86
+		{61A8EC03-4570-4BFF-893A-C2E30F52B867}.Debug|x86.ActiveCfg = Debug|x86
+		{61A8EC03-4570-4BFF-893A-C2E30F52B867}.Debug|x86.Build.0 = Debug|x86
+		{61A8EC03-4570-4BFF-893A-C2E30F52B867}.Release|x86.ActiveCfg = Release|x86
+		{61A8EC03-4570-4BFF-893A-C2E30F52B867}.Release|x86.Build.0 = Release|x86
+		{4E05FDC8-423E-469E-90F7-666999FE55D8}.Debug|x86.ActiveCfg = Debug|x86
+		{4E05FDC8-423E-469E-90F7-666999FE55D8}.Debug|x86.Build.0 = Debug|x86
+		{4E05FDC8-423E-469E-90F7-666999FE55D8}.Release|x86.ActiveCfg = Release|x86
+		{4E05FDC8-423E-469E-90F7-666999FE55D8}.Release|x86.Build.0 = Release|x86
+		{9D7BBE07-CB00-4CAA-A164-9993174ABAAB}.Debug|x86.ActiveCfg = Debug|x86
+		{9D7BBE07-CB00-4CAA-A164-9993174ABAAB}.Debug|x86.Build.0 = Debug|x86
+		{9D7BBE07-CB00-4CAA-A164-9993174ABAAB}.Release|x86.ActiveCfg = Release|x86
+		{9D7BBE07-CB00-4CAA-A164-9993174ABAAB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27EC1D8E-D272-4E7A-8622-DE2131313C6C}
+	EndGlobalSection
+EndGlobal

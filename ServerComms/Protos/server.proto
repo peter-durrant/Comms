@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+message GetVersionRequest {}
+
+message GetVersionReply {
+	string version = 1;
+}
+
+service CommsService{ 
+	rpc GetVersion (GetVersionRequest) returns (GetVersionReply);
+}
