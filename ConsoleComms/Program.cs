@@ -1,15 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Grpc.Core;
+using ServerComms;
 
 namespace ConsoleComms
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            var server = new Server
+            {
+                Services =
+                {
+                    CommsService.BindService(new CommsServiceImpl())
+                },
+                Ports =
+                {
+                    new ServerPort("localhost", 50051, ServerCredentials.Insecure)
+                }
+            };
+
+            server.Start();
+
+            Console.WriteLine("Press any key to stop the server...");
+            Console.ReadKey();
+
+            server.ShutdownAsync().Wait();
         }
     }
 }

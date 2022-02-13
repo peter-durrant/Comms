@@ -43,3 +43,16 @@ The service schema is defined using protobuf. The service is called **CommsServi
 service CommsService {
 ```
 
+The service is implemented in [CommsServiceImpl.cs](./ServerComms/CommsServiceImpl.cs).
+
+## gPRC Server
+
+The gRPC server is created in the **ConsoleComms** [Program.cs](./ConsoleComms/Program.cs).
+
+## gRPC Client
+
+The gRPC client is implemented in [CommsClient.cs](./ClientComms/CommsClient.cs). There are synchronous and asynchronous implementations of the API methods.
+
+## Client
+
+The WPF client contains [ClientCommsVm.cs](./ClientComms/CommsClient.cs) which creates a [CommsClient.cs](./ClientComms/CommsClient.cs) and calls the `GetVersion` method.
